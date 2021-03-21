@@ -21,15 +21,15 @@ export const config = {
   username: "postgres",
   password: "postgres",
   database: "postgres",
-  port: 5342,
-  host: "database-fsnd.c0low1hk4taw.us-west-2.rds.amazonaws.com",
+  port: 5432,
+  host: "fsnd-udacity-db.cx3r2hkzjjmg.us-east-1.rds.amazonaws.com",
   dialect: "postgres",
-  aws_region: "us-east-1",
-  aws_profile: "",
-  aws_media_bucket: "",
-  url: "",
-  jwt: {
-    secret: "",
-  },
+  // aws_region: process.env.AWS_REGION,
+  // aws_profile: process.env.AWS_PROFILE,
+  // aws_media_bucket: process.env.AWS_BUCKET,
+  // url: process.env.URL,
+  // jwt: {
+  //   secret: process.env.JWT_SECRET,
+  // },
 };
 
