@@ -1,4 +1,3 @@
-export BUCKET_NAME="test-bucket-poker"
 
 echo -n "Locating S3 bucket ($BUCKET_NAME) ... "
 BUCKET_EXISTS=true
